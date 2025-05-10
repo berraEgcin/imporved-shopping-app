@@ -1,0 +1,34 @@
+project-root/
+│
+├── backend/
+│   └── db.json                ✅ json-server veri dosyası
+│
+├── public/                   ✅ Kampanya/ürün görselleri (opsiyonel)
+│
+├── src/
+│   ├── components/           ✅ Tüm yeniden kullanılabilir bileşenler burada       :ticked 
+│   │   ├── Navbar.js         ✅ Navigation bar (Home ve tüm sayfalarda ortak)
+│   │   ├── Carousel.js       ✅ Campaign carousel
+│   │   ├── SearchSortBar.js  ✅ Arama ve sıralama çubuğu
+│   │   ├── ProductCard.js    ✅ Ürün bileşeni
+│   │   ├── ReviewList.js     ✅ Yorumları gösteren bileşen
+│   │   ├── AddReviewForm.js  ✅ Yorum ekleme formu
+│   │   └── CampaignForm.js   ✅ Kampanya ekleme formu
+│
+│   ├── pages/
+│   │   ├── index.js                 ✅ Home page
+│   │   ├── product/[id].js         ✅ Product detail page
+│   │   ├── cart.js                 ✅ Shopping cart page
+│   │   └── add-campaign.js        ✅ Add campaign page
+│
+│   ├── services/             ✅ REST API işlemleri burada
+│   │   ├── productService.js     ✅ Ürünlerle ilgili işlemler
+│   │   ├── cartService.js        ✅ Sepet işlemleri
+│   │   ├── campaignService.js    ✅ Kampanya işlemleri
+│   │   └── reviewService.js      ✅ Yorum işlemleri
+│
+│   └── styles/
+│       └── globals.css        ✅ Bootstrap + özel stil
+│
+├── package.json
+└── README.md
